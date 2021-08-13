@@ -43,5 +43,5 @@ class BItem(scrapy.Item):
     nowrank = scrapy.Field()
     # 关注
     subscribe = scrapy.Field()
-    #
+    # MongoDB_id
     _id = scrapy.Field()
